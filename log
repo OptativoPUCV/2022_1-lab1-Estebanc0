@@ -152,3 +152,9 @@ exercises.c:62:18: error: format '%i' expects argument of type 'int *', but argu
 cc1.exe: all warnings being treated as errors
 Compilation failed
 95683d0
+sá., 12 de mar. de 2022 14:37:41: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+3a41134
