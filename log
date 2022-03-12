@@ -368,3 +368,35 @@ exercises.c:135:4: error: 'j' is used uninitialized in this function [-Werror=un
 cc1.exe: all warnings being treated as errors
 Compilation failed
 18af344
+sá., 12 de mar. de 2022 20:09:44: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV2':
+exercises.c:134:15: error: passing argument 3 of 'suma' makes pointer from integer without a cast [-Werror=int-conversion]
+    suma(a1,b1,*s);
+               ^
+exercises.c:14:6: note: expected 'int *' but argument is of type 'int'
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:135:15: error: passing argument 3 of 'suma' makes pointer from integer without a cast [-Werror=int-conversion]
+    suma(a2,b2,*j);
+               ^
+exercises.c:14:6: note: expected 'int *' but argument is of type 'int'
+ void suma(int a, int b, int * c) {
+      ^~~~
+exercises.c:136:15: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+    c->datos[0]=s;
+               ^
+exercises.c:137:15: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+    c->datos[1]=j;
+               ^
+exercises.c:134:15: error: 's' is used uninitialized in this function [-Werror=uninitialized]
+    suma(a1,b1,*s);
+               ^~
+exercises.c:135:15: error: 'j' is used uninitialized in this function [-Werror=uninitialized]
+    suma(a2,b2,*j);
+               ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f1f096d
