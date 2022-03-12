@@ -297,3 +297,20 @@ sá., 12 de mar. de 2022 19:35:36:
  tests:  6|2
 total_score: 50/70
 8a8a146
+sá., 12 de mar. de 2022 19:42:31: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaV':
+exercises.c:120:10: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+    int h=a->datos, j=b->datos;
+          ^
+exercises.c:120:22: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+    int h=a->datos, j=b->datos;
+                      ^
+exercises.c:122:12: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c->datos=h+j;
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d47b1f9
