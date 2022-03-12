@@ -191,3 +191,9 @@ exercises.c:85:8: error: unused variable 'i' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 4476694
+sá., 12 de mar. de 2022 17:34:58: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+94a10c1
