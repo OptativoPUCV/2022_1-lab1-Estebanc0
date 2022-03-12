@@ -400,3 +400,9 @@ exercises.c:135:15: error: 'j' is used uninitialized in this function [-Werror=u
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f1f096d
+sá., 12 de mar. de 2022 20:12:30: 
+ exercises.c | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+ tests:  7|1
+total_score: 60/70
+b7967d4
