@@ -158,3 +158,14 @@ sá., 12 de mar. de 2022 14:37:41:
  tests:  2|5
 total_score: 20/70
 3a41134
+sá., 12 de mar. de 2022 14:41:04: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:62:4: error: implicit declaration of function 'strcopy' [-Werror=implicit-function-declaration]
+    strcopy(p->nombre, nombre);
+    ^~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+03b3685
