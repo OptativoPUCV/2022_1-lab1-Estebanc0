@@ -248,3 +248,17 @@ sá., 12 de mar. de 2022 18:54:12:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 34b24a8
+sá., 12 de mar. de 2022 18:59:48: 
+ exercises.c | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:84:12: error: assignment from incompatible pointer type [-Werror=incompatible-pointer-types]
+    p->datos=(Vector*)calloc(n,sizeof(Vector));
+            ^
+exercises.c:84:12: error: 'p' is used uninitialized in this function [-Werror=uninitialized]
+    p->datos=(Vector*)calloc(n,sizeof(Vector));
+    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+480f436
