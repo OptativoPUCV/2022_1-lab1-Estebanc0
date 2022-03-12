@@ -130,3 +130,14 @@ exercises.c:64:12: error: format '%d' expects argument of type 'int *', but argu
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3713f1f
+sá., 12 de mar. de 2022 14:33:10: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:64:12: error: format '%i' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    scanf("%i",p->edad);
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3f895a8
