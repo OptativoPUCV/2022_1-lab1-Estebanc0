@@ -84,7 +84,7 @@ Vector * crearVector(int n) {
    p=(Vector*)calloc(n,sizeof(Vector));
    int i;
    for (i=0;i<n;i++){
-      p->datos=0;
+      p[i].datos=0;
    }
    p->capacidad=n;
    return p;
