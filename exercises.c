@@ -85,8 +85,8 @@ Vector * crearVector(int n) {
    
    /*for (i=0;i>n;i++){
       p->datos=0;
-   }
-   p->capacidad=n;*/
+   }*/
+   p->capacidad=n;
    return p;
 }
 
