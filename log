@@ -274,3 +274,14 @@ sá., 12 de mar. de 2022 19:11:21:
  tests:  4|3
 total_score: 40/70
 dc11230
+sá., 12 de mar. de 2022 19:33:48: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+test.c: In function 'obtenerValor':
+exercises.c:111:15: error: 'b' is used uninitialized in this function [-Werror=uninitialized]
+    v->datos[i]=b;
+    ~~~~~~~~~~~^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+6050bdc
