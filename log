@@ -119,3 +119,14 @@ sá., 12 de mar. de 2022 13:36:06:
  tests:  2|5
 total_score: 20/70
 017d791
+sá., 12 de mar. de 2022 14:32:05: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:64:12: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    scanf("%d",p->edad);
+            ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3713f1f
