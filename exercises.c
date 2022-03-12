@@ -83,10 +83,10 @@ Vector * crearVector(int n) {
    Vector *p;
    p=(Vector*)calloc(n,sizeof(Vector));
    int i;
-   for (i=0;i>n;i++){
+   /*for (i=0;i>n;i++){
       p->datos=0;
    }
-   p->capacidad=n;
+   p->capacidad=n;*/
    return p;
 }
 
